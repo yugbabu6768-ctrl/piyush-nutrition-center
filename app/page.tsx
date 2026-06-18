@@ -1,6 +1,7 @@
 import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/hero"
 import { CoachProfile } from "@/components/coach-profile"
+import { WhyChoose } from "@/components/why-choose"
 import { Transformations } from "@/components/transformations"
 import { Products } from "@/components/products"
 import { Consultation } from "@/components/consultation"
@@ -18,6 +19,7 @@ export default function Page() {
       <main>
         <Hero />
         <CoachProfile />
+        <WhyChoose />
         <Transformations />
         <Products />
         <Consultation />

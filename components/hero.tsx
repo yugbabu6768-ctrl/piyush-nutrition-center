@@ -20,8 +20,9 @@ export function Hero() {
             <span className="text-primary">Starts Here</span>
           </h1>
           <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Get personalized wellness guidance, Herbalife nutrition products,
-            and weight management support from Coach {COACH.name}.
+            Get personalized nutrition guidance, Herbalife wellness products,
+            body transformation support, and weight management consultation from
+            Coach {COACH.name}.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -61,8 +62,8 @@ export function Hero() {
         <div className="relative">
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-xl ring-1 ring-border">
             <Image
-              src="/images/hero.png"
-              alt="Fresh green nutrition shake surrounded by healthy fruits and vegetables"
+              src="/images/product-combo.png"
+              alt="Herbalife Formula 1, ShakeMate and Personalized Protein Powder weight management pack"
               fill
               priority
               className="object-cover"

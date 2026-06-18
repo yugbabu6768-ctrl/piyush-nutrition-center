@@ -5,7 +5,7 @@ export const COACH = {
   email: "adityakumarranjan39@gmail.com",
   address:
     "Near Shiv Baba Marriage Lawn, Annawan Bazar, Ambedkar Nagar",
-  brand: "Aditya Nutrition Club",
+  brand: "Piyush Nutrition Center",
   tagline:
     "Nutrition, Wellness & Weight Management Guidance Under One Roof",
 }
@@ -34,50 +34,60 @@ export type Product = {
 // Prices are easy to edit here.
 export const PRODUCTS: Product[] = [
   {
-    name: "Formula 1 Nutritional Shake Mix",
-    price: "₹2,999",
-    details: "Balanced meal shake with protein, vitamins & minerals.",
-    image: "/images/product-shake.png",
+    name: "Herbalife Formula-1 Nutritional Shake",
+    price: "₹1,435",
+    details: "Balanced meal replacement shake with protein, vitamins and minerals.",
+    image: "/images/product-formula1.png",
   },
   {
-    name: "Herbal Aloe Concentrate",
-    price: "₹1,499",
-    details: "Soothing aloe drink that supports digestion & hydration.",
-    image: "/images/product-aloe.png",
+    name: "Herbalife Activated Fibre - 90 Tablets",
+    price: "₹1,099",
+    details: "Supports healthy digestion and daily fibre intake.",
+    image: "/images/product-fibre.png",
   },
   {
-    name: "Personalized Protein Powder",
-    price: "₹1,199",
-    details: "Add extra protein to your shake to stay fuller longer.",
-    image: "/images/product-protein.png",
-  },
-  {
-    name: "Afresh Energy Drink Mix",
+    name: "Herbalife Dinoshake Strawberry Flavor - 200g",
     price: "₹999",
-    details: "Refreshing energy boost with a light, crisp taste.",
-    image: "/images/product-energy.png",
+    details: "Nutritious shake specially designed for growing children.",
+    image: "/images/product-formula1.png",
   },
   {
-    name: "Multivitamin Complex",
-    price: "₹899",
-    details: "Daily essential vitamins & minerals for overall wellness.",
-    image: "/images/product-multivitamin.png",
+    name: "Herbal Concentrate Original 102g",
+    price: "₹1,200",
+    details: "Refreshing herbal beverage mix for daily wellness.",
+    image: "/images/product-tea.png",
   },
   {
-    name: "Active Fiber Complex",
-    price: "₹1,299",
-    details: "Dietary fiber blend to support healthy digestion.",
-    image: "/images/product-fiber.png",
+    name: "HERBALIFE Weight Loss Combo",
+    price: "₹2,999",
+    details:
+      "Complete weight management starter combo: Formula 1 Mango, ShakeMate, Protein Powder & Afresh Energy Drink Lemon.",
+    image: "/images/product-combo.png",
+  },
+  {
+    name: "Herbalife Skin Care Kit",
+    price: "₹4,999",
+    details: "Complete skin wellness and personal care package.",
+    image: "/images/product-skincare.png",
   },
 ]
 
 export const TRANSFORMATIONS = [
-  { image: "/images/transform-1.png", name: "Rahul S.", result: "Lost 12 kg" },
-  { image: "/images/transform-2.png", name: "Priya M.", result: "Lost 9 kg" },
-  { image: "/images/transform-3.png", name: "Anil K.", result: "Lost 15 kg" },
-  { image: "/images/transform-4.png", name: "Sneha R.", result: "Lost 8 kg" },
-  { image: "/images/transform-5.png", name: "Vikram T.", result: "Lost 14 kg" },
-  { image: "/images/transform-6.png", name: "Pooja D.", result: "Lost 10 kg" },
+  {
+    image: "/images/transform-woman.png",
+    name: "Anjali Sharma",
+    result: "Lost 18 kg",
+  },
+  {
+    image: "/images/transform-vinod.png",
+    name: "Vinod Kumar",
+    result: "Lost 14 kg",
+  },
+  {
+    image: "/images/transform-rajesh.png",
+    name: "Rajesh Kumar",
+    result: "Lost 22 kg",
+  },
 ]
 
 export const REVIEWS = [

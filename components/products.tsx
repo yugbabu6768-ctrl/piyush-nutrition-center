@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { WhatsAppButton } from "@/components/whatsapp-button"
-import { PRODUCTS } from "@/lib/site"
+import { COACH, PRODUCTS } from "@/lib/site"
 
 export function Products() {
   return (
@@ -46,7 +46,7 @@ export function Products() {
                     {product.price}
                   </span>
                   <WhatsAppButton
-                    message={`Hello Coach Aditya, I want to order ${product.name}. Please share details.`}
+                    message={`Hello Coach ${COACH.name}, I would like to order ${product.name}. Please share complete details.`}
                     className="px-4 py-2 text-xs"
                   >
                     Order Now

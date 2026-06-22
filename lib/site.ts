@@ -34,39 +34,34 @@ export type Product = {
 // Prices are easy to edit here.
 export const PRODUCTS: Product[] = [
   {
-    name: "Herbalife Formula-1 Nutritional Shake",
-    price: "₹1,435",
+    name: "Herbalife Formula-1 Nutritional Shake"
     details: "Balanced meal replacement shake with protein, vitamins and minerals.",
     image: "/images/product-formula1.png",
   },
   {
-    name: "Herbalife Activated Fibre - 90 Tablets",
-    price: "₹1,099",
+    name: "Herbalife Activated Fibre - 90 Tablets"
     details: "Supports healthy digestion and daily fibre intake.",
     image: "/images/product-fibre.png",
   },
   {
-    name: "Herbalife Dinoshake Strawberry Flavor - 200g",
-    price: "₹999",
+    name: "Herbalife Dinoshake Strawberry Flavor - 200g"
     details: "Nutritious shake specially designed for growing children.",
     image: "/images/product-formula1.png",
   },
   {
-    name: "Herbal Concentrate Original 102g",
-    price: "₹1,200",
+    name: "Herbal Concentrate Original 102g"
     details: "Refreshing herbal beverage mix for daily wellness.",
     image: "/images/product-tea.png",
   },
   {
-    name: "HERBALIFE Weight Loss Combo",
-    price: "₹2,999",
+    name: "HERBALIFE Weight Loss Combo"
     details:
       "Complete weight management starter combo: Formula 1 Mango, ShakeMate, Protein Powder & Afresh Energy Drink Lemon.",
     image: "/images/product-combo.png",
   },
   {
     name: "Herbalife Skin Care Kit",
-    price: "₹4,999",
+    price: "₹4,999
     details: "Complete skin wellness and personal care package.",
     image: "/images/product-skincare.png",
   },
@@ -85,7 +80,7 @@ export const TRANSFORMATIONS = [
   },
   {
     image: "/images/transform-rajesh.png",
-    name: "Rajesh Kumar",
+    name: "Aditya Kumar Ranjan",
     result: "Lost 22 kg",
   },
 ]

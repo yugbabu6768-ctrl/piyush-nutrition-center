@@ -34,7 +34,7 @@ export type Product = {
 // Prices are easy to edit here.
 export const PRODUCTS: Product[] = [
   {
-    name: "Herbalife Formula-1 Nutritional Shake"
+    name: "Herbalife Formula-1 Nutritional Shake",
     details: "Balanced meal replacement shake with protein, vitamins and minerals.",
     image: "/images/product-formula1.png",
   },
